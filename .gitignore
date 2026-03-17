@@ -1,0 +1,50 @@
+# 🔐 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧪 Virtual environment
+venv/
+env/
+ENV/
+
+# 📦 Installed packages
+*.egg-info/
+dist/
+build/
+
+# 🧠 Model weights (YOLO downloads)
+*.pt
+
+# 💾 Data files
+data.csv
+*.csv
+
+# 📊 Logs
+*.log
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
+
+# 🧪 Jupyter (if used)
+.ipynb_checkpoints/
+
+# 🔥 Streamlit cache
+.streamlit/
+
+# ⚙️ IDE files
+.vscode/
+.idea/
+
+# 🔐 Environment variables
+.env
+
+# 🎥 Video files (optional)
+*.mp4
+*.avi
+
+# 📸 Images (optional)
+*.jpg
+*.png

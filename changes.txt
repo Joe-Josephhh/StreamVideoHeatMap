@@ -1,0 +1,62 @@
+👉 Replace this:
+
+cap = cv2.VideoCapture(0)
+
+👉 With:
+
+cap = cv2.VideoCapture("video.mp4")
+
+✔ Works instantly
+✔ Best for testing
+✔ No hardware needed
+
+👉 Just put any .mp4 file in your folder
+
+
+
+2. Use Your Phone as Camera (VERY COOL 🔥)
+
+Apps like:
+
+DroidCam
+
+IP Webcam
+
+👉 They convert your phone into a webcam
+
+Then use:
+
+cap = cv2.VideoCapture("http://192.168.x.x:8080/video")
+
+✔ Real-time
+✔ Works like webcam
+(WiFi IP: 192.168.1.5
+Port: 4747
+
+⚠️ THIS is the “link info” you need
+
+🌐 2. Convert It Into Video URL
+
+👉 Combine like this:
+
+http://<IP>:<PORT>/video
+Example:
+http://192.168.1.5:4747/video)
+
+
+
+
+
+
+🌐 3. Use IP Camera / CCTV Stream (ADVANCED)
+
+If you have:
+
+CCTV camera
+
+RTSP stream
+
+cap = cv2.VideoCapture("rtsp://username:password@ip_address")
+
+✔ Real industry setup
+✔ Same as real systems
